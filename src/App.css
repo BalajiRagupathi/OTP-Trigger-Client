@@ -1,0 +1,40 @@
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 78.15em) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 61.25em) {
+  html {
+    font-size: 47%;
+  }
+  .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 38%;
+  }
+}
+
+@media only screen and (min-width: 125em) {
+  html {
+    font-size: 100%;
+  }
+}

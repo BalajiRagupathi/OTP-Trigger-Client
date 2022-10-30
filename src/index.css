@@ -1,0 +1,24 @@
+/* 125em; // 2000px */
+/* 88.75em; // 1420 */
+/* 78.15em; // 1250px */
+/* 61.25em; // 980px */
+/* 37.5em; // 600px */
+/* 31.25em; // 500px */
+/* 25em; // 400px */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
